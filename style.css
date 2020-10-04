@@ -1,0 +1,311 @@
+html{
+  height: 100%;
+  scroll-behavior: smooth;
+ 
+}
+.numbers {
+  position: center;
+  margin: auto;
+  text-align: center;
+  z-index: 100;
+}
+.column {
+    float: left;
+    margin: auto;
+    width: 12.5%;
+    padding: 5px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h1 {
+  font-family: 'Abril Fatface', serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: white;
+  font-size: 40px;
+}
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 25px;
+}
+a {
+  color:white;
+}
+/* The navigation bar */
+.nav-container {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+    filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+    z-index: 10;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #FF415B;
+    color: #FF415B;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 330px; /* Add a top margin to avoid content overlay */
+  }
+  
+.nav-items li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.agetstarted {
+  font-family: Abril Fatface;
+  color: #FF415B;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+  .wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  nav ul {
+      display: flex;
+  }
+
+.nav-items li:nth-last-of-type(1) {
+    margin: auto;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.center {
+  padding-top: 225px;
+  display: block;
+  margin: auto;
+}
+
+/* What Box & Testimonials */
+
+.whattest{
+  height: auto;
+  display: inline-block;
+}
+
+.whattestcontainer{
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+
+.what {
+    display: inline-block;
+    margin: auto;
+    width: 1097px;
+    height: 433px;
+    top: 848px;
+    text-align: left;
+
+    background: linear-gradient(180deg, #FF415B 0%, #FF7C48 100%);
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+.whattext {
+  text-align: left;
+    padding: 25px;
+}
+.testimonials {
+  margin: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.testimonialone {
+    display: inline-block;
+    position: absolute;
+    width: 490px;
+    height: 424px;
+    left: 125px;
+    top: 1373px;
+    z-index: 1;
+    text-align: left;
+
+    background: linear-gradient(180deg, #FF415B 0%, #FF7C48 100%);
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.testimonialonetext {
+    padding-left: 25px;
+}
+
+.testimonialtwo {
+  display: inline-block;
+  position: absolute;
+  width: 490px;
+  height: 424px;
+  left: 438px;
+  top: 1638px;
+  z-index: 2;
+  text-align: center;
+
+  background: linear-gradient(180deg, #FF415B 0%, #FF7C48 100%);
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+
+}
+
+.testimonialtwotext {
+  padding-left: 25px;
+  text-align: left;
+}
+
+.testimonialthree {
+  display: inline-block;
+  position: absolute;
+  width: 507px;
+  height: 424px;
+  left: 792px;
+  top: 1886px;
+  z-index: 3;
+  text-align: right;
+
+  background: linear-gradient(180deg, #FF415B 0%, #FF7C48 100%);
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.testimonialthreetext {
+  padding-left: 25px;
+  text-align: left;
+}
+
+.whatdoothersthink {
+  position: absolute;
+  width: 604px;
+  height: 223px;
+  left: 650px;
+  top: 1385px;
+
+}
+
+.instagram {
+ margin: 50%;
+}
+.instagram-image {
+  margin: auto;
+  position: absolute;
+  top: 2500px;
+  width: 328px;
+  height: 556px;
+  z-index: 2;
+  display: block;
+}
+.instapara {
+  color: #FF415B;
+  z-index: 6;
+  width: 400px;
+  padding-left: 150px;
+}
+
+/* Covid Viruses */
+.virus1 {
+  position: absolute;
+  width: 273px;
+  height: 278px;
+  left: -20px;
+  top: -20px;
+
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+}
+.virus2 {
+  position: absolute;
+  width: 273px;
+  height: 278px;
+  left: 625px;
+  top: 700px;
+  z-index: -1;
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+}
+.virus3 {
+  position: absolute;
+  width: 273px;
+  height: 278px;
+  left: 1200px;
+  top: 250px;
+  z-index: -1;
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+}
+.virus4 {
+  position: absolute;
+  width: 273px;
+  height: 278px;
+  left: 1100px;
+  top: 1550px;
+  z-index: -1;
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+}
+.virus5 {
+  position: absolute;
+  width: 273px;
+  height: 278px;
+  left: -20px;
+  top: 1220px;
+
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+}
+.virus6 {
+  position: absolute;
+  width: 273px;
+  height: 278px;
+  left: 150px;
+  top: 2000px;
+
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+}
+.virus7 {
+  position: absolute;
+  width: 273px;
+  height: 278px;
+  left: 300px;
+  top: 2750px;
+
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+}
+.virus8 {
+  position: absolute;
+  width: 273px;
+  height: 278px;
+  left: 1150px;
+  top: 2250px;
+
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+}
