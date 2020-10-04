@@ -111,3 +111,10 @@ h2 {
 .yellow {
   color: #FFB655;
 }
+.gradientletters {
+  color: #FF415B;
+  text-align: center;
+}
+.linkie {
+  text-decoration: none;
+}
